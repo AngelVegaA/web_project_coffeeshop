@@ -1,6 +1,6 @@
 .page {
   min-width: 1100px;
-  max-width: 1600px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
@@ -19,7 +19,7 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
-  size: cover;
+  background-size: cover;
 }
 
 .nav {
@@ -51,9 +51,11 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
-/* codigo borrado 
+/* codigo borrado
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -61,20 +63,28 @@
   */
 
 .header__title {
-  font-size: 62px;
-  line-height: 76px;
+  font-size: 58px;
+  line-height: 72px;
   font-weight: 500;
   max-width: 709px;
+  letter-spacing: -1px;
   margin-top: 183px;
   margin-left: 80px;
   margin-bottom: 28px;
 }
+.header__title span {
+  display: block;
+}
 /* nuevo elemento */
 .span_accent {
   color: #2f80ed;
+  font-style: italic;
+  font-weight: normal;
+  font-family: "Noto serif", "Times New Roman", serif;
 }
 
 .header__description {
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -99,6 +109,9 @@
   box-sizing: border-box;
 }
 .header__paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   margin: 0;
   color: #838383;
 }
@@ -106,6 +119,7 @@
 .header__footer > .header__paragraph:last-child {
   margin-left: auto;
   text-align: right;
+  flex: 1;
 }
 
 .header__link {
