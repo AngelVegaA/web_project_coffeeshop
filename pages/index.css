@@ -1,6 +1,6 @@
 .page {
   min-width: 1100px;
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
@@ -76,7 +76,7 @@
   display: block;
 }
 /* nuevo elemento */
-.span_accent {
+.header__span-accent {
   color: #2f80ed;
   font-style: italic;
   font-weight: normal;
@@ -131,7 +131,7 @@
   color: #838383;
 }
 
-.recipies {
+.recipes {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -148,7 +148,7 @@
   color: #ffffff;
 }
 
-.recipies__title {
+.recipes__title {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -158,7 +158,7 @@
   margin-bottom: 24px;
 }
 
-.recipies__subtitle {
+.recipes__subtitle {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -167,24 +167,24 @@
   margin-bottom: 80px;
 }
 
-.recipies__videos {
+.recipes__videos {
   display: flex;
   flex-direction: row;
   column-gap: 40px;
   justify-content: center;
 }
 
-.recipies__video-item {
+.recipes__video-item {
   border: none;
 }
 
-.recipies__iframe {
+.recipes__iframe {
   border: none;
   width: 480px;
   height: 273px;
 }
 
-.recipies__video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   font-weight: 500;
@@ -195,19 +195,6 @@
 }
 
 /*
-Valor incorrecto para las propiedades: max-width del selector .page. Repasa una vez más el brief.
-
-Archivo: index.html, línea 47. La clase span_accent no se corresponde con las normas de BEM. Los modificadores en BEM nunca deberían aparecer sin la clase no modificada. Por ejemplo, en lugar de class="user_role_author", debería ser class="user user_role_author".
-
-La sección recipes debe contener un elemento recipes__title.
-
-La sección recipes debe contener un elemento recipes__title.
-
-La sección recipes debe contener un elemento recipes__subtitle.
-
-La sección recipes debe contener un elemento recipes__videos.
-
-Debe haber dos etiquetas <iframe> con la clase recipes__iframe.
 
 El elemento reservation deben tener cada uno un atributo id con un valor no vacío.
 
