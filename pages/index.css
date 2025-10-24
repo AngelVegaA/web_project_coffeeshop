@@ -175,6 +175,7 @@
 }
 
 .recipies__video-item {
+  border: none;
 }
 
 .recipies__iframe {
