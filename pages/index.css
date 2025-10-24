@@ -193,3 +193,25 @@
   margin-top: 24px;
   margin-bottom: 215px;
 }
+
+/*
+Valor incorrecto para las propiedades: max-width del selector .page. Repasa una vez más el brief.
+
+Archivo: index.html, línea 47. La clase span_accent no se corresponde con las normas de BEM. Los modificadores en BEM nunca deberían aparecer sin la clase no modificada. Por ejemplo, en lugar de class="user_role_author", debería ser class="user user_role_author".
+
+La sección recipes debe contener un elemento recipes__title.
+
+La sección recipes debe contener un elemento recipes__title.
+
+La sección recipes debe contener un elemento recipes__subtitle.
+
+La sección recipes debe contener un elemento recipes__videos.
+
+Debe haber dos etiquetas <iframe> con la clase recipes__iframe.
+
+El elemento reservation deben tener cada uno un atributo id con un valor no vacío.
+
+El elemento nav__link para la sección recipes debe vincular la parte correspondiente de la página web.
+
+El elemento nav__link para la sección reservation debe vincular la parte correspondiente de la página web.
+*/
