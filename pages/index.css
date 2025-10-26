@@ -137,16 +137,13 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-
   position: relative;
   box-sizing: border-box;
-  /* codigo nuevo apartir de aquí */
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  padding-bottom: 215px;
 }
 
 .recipes__title {
