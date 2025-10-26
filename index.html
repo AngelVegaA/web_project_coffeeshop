@@ -110,7 +110,7 @@
         <section id="reservation" class="reservation">
   <h2 class="reservation__title">Reservar una mesa</h2>
 
-  <!-- Mezcla de clases en el MISMO nodo -->
+  
   <form action="/procesar formuloario" method="post" class="reservation__form form">
     <div class="form__fieldset">
       <label for="nombre" class="form__label">Nombre *</label>
@@ -118,12 +118,12 @@
              placeholder="Nombre" class="form__input" required />
 
       <label for="comensales" class="form__label">Número de comensales *</label>
-      <!-- En number NO uses minlength/maxlength; usa min/max -->
+     
       <input type="number" id="comensales" name="comensales" min="1" max="8"
              class="form__input" placeholder="1-8" required />
 
       <label for="fecha" class="form__label">Fecha y hora *</label>
-      <!-- El brief sugiere datetime-local -->
+      
       <input type="datetime-local" id="fecha" name="fecha" class="form__input" required />
 
       <label for="correo" class="form__label">Tu correo electrónico *</label>
@@ -133,7 +133,7 @@
 
     <button type="submit" class="form__button">Reservar una mesa</button>
 
-    <!-- Para alinear checkbox + texto, envuélvelos en un <label> -->
+    
     <label for="terminos" class="form__checkbox">
       <input type="checkbox" id="terminos" name="terminos" class="form__checkbox-input" required />
       Acepto los términos de uso
