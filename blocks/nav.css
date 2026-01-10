@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  /* codigo modificado apartir de aquí
+   */
+  height: 39px;
+  width: 105px;
+  /* codigo nuevo apartir de aquí */
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
